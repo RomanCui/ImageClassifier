@@ -1,4 +1,4 @@
-# supervised-learning-image-recognition
+# Image recognition project using supervised learning
 
 Scope: This personal project applies different supervised learning methods on datasets MNIST and CIFAR10.
 Timeline: Sep - Dec 2022
