@@ -9,7 +9,6 @@ Python, Pytorch, numpy, Google Colab
 Timeline: 
 Sep - Dec 2022
 
-Introduction:
 Different methods have different accuracy and taining time.
 Here is a summary of the methods used so far :
 
