@@ -18,6 +18,12 @@
 
 ## kNN model with MNIST dataset
 useful link to understand kNN method https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+
+### Design:
+There is no training for the kNN model
+In testing, the program find the closes 3 neighbor and compute the mode of their labels as the predition
+
+### Result:
 ![alt text](https://github.com/RomanCui/BigBrainModels/blob/main/images/knn_result.png?raw=true)
 
 ## Multiple logistic regression on MNIST and CIFAR10
