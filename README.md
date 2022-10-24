@@ -9,7 +9,7 @@
 # Summary of programs with corresponding models and datasets
 
 1. kNN model with MNIST dataset (Accuracy: 96%)
-2. **Multiple logistic regression** on MNIST (Accuracy: 92%) and CIFAR10 (Accuracy: 38%)
+2. **Multiple logistic regression** on MNIST (Accuracy: 91%) and CIFAR10 (Accuracy: 38%)
 3. **Fully Connected Network** on MNIST (Accuracy: 95%)
 4. **Convolution Nurual Network** on CIFAR10 (Accuracy: 65%)
 5. **Tranfer Learning** on FashionMNIST (Accuracy: 83%)
@@ -18,7 +18,6 @@
 
 ## kNN model with MNIST dataset
 
-Useful link to understand kNN method: https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm <br>
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/knn <br>
 Running instruction: upload knn_on_MNIST.ipynb to google colab and run with gpu
 
@@ -33,6 +32,24 @@ Accuracy: 0.962000 <br>
 Time: 4.204589
 
 ## Multiple logistic regression on MNIST and CIFAR10
+
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/multiple_logistic_regression_with_tuning <br>
+Running instruction: upload multiple_logistic_regression_with_tuning.ipynb to google colab and run with gpu
+
+### Design:
+
+First, set up logistic regression and regularization with a starting leaerning rate and regularization hyperparameter <br>
+Then, I improved the performance by using grid-search to find the best learning rate and hyperparmeters
+
+### Result:
+
+Best lambda for adam:  0.005 <br>
+Best learning rate for adam:  0.001 <br>
+Best lambda for sgd :  0.005 <br>
+Best learning rate for sgd:  0.001 <br>
+Accuracy of the network on the 10000 test images: 91 % <br>
+Accuracy of the network on the 10000 test images: 38 %
+
 
 ## Fully Connected Network on MNIST
 
