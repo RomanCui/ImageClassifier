@@ -6,23 +6,25 @@
 - In this project, I use **pytorch library** and **google colab**
 - Timeline: Sep - Dec 2022
 
-# List of programs with corresponding models and datasets
+# Summary of programs with corresponding models and datasets
 
 1. kNN model with MNIST dataset (Accuracy: 96%)
-2. Multiple logistic regression on MNIST (Accuracy: 92%) and CIFAR10 (Accuracy: 38%)
-3. Fully Connected Network on MNIST (Accuracy: 95%)
-4. Convolution Nurual Network on CIFAR10 (Accuracy: 65%)
-5. Tranfer Learning on FashionMNIST (Accuracy: 83%)
+2. **Multiple logistic regression** on MNIST (Accuracy: 92%) and CIFAR10 (Accuracy: 38%)
+3. **Fully Connected Network** on MNIST (Accuracy: 95%)
+4. **Convolution Nurual Network** on CIFAR10 (Accuracy: 65%)
+5. **Tranfer Learning** on FashionMNIST (Accuracy: 83%)
 
-# kNN model with MNIST dataset
+# Design and running results of each program above
 
-# Multiple logistic regression on MNIST and CIFAR10
+## kNN model with MNIST dataset
 
-# Fully Connected Network on MNIST
+## Multiple logistic regression on MNIST and CIFAR10
 
-# Convolution Nurual Network on CIFAR10
+## Fully Connected Network on MNIST
 
-# Tranfer Learning on FashionMNIST
+## Convolution Nurual Network on CIFAR10
+
+## Tranfer Learning on FashionMNIST
 
 
 
