@@ -17,14 +17,20 @@
 # Design and running results of each program above
 
 ## kNN model with MNIST dataset
-useful link to understand kNN method https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+
+Useful link to understand kNN method: https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm <br>
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/knn <br>
+Running instruction: upload knn_on_MNIST.ipynb to google colab and run with gpu
 
 ### Design:
 There is no training for the kNN model <br>
 In testing, the program find the closes 3 neighbor and compute the mode of their labels as the predition
 
 ### Result:
-![alt text](https://github.com/RomanCui/BigBrainModels/blob/main/images/knn_result.png?raw=true)
+
+Correct Predictions: 962/1000 total <br>
+Accuracy: 0.962000 <br>
+Time: 4.204589
 
 ## Multiple logistic regression on MNIST and CIFAR10
 
