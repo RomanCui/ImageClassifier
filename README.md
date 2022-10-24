@@ -17,6 +17,8 @@
 # Design and running results of each program above
 
 ## kNN model with MNIST dataset
+useful link to understand kNN method https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+![alt text](https://github.com/RomanCui/BigBrainModels/blob/main/images/knn_result.png?raw=true)
 
 ## Multiple logistic regression on MNIST and CIFAR10
 
