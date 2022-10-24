@@ -20,7 +20,7 @@
 useful link to understand kNN method https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 
 ### Design:
-There is no training for the kNN model
+There is no training for the kNN model <br>
 In testing, the program find the closes 3 neighbor and compute the mode of their labels as the predition
 
 ### Result:
