@@ -8,7 +8,7 @@
 
 # Summary of programs
 
-1. **kNN*** model with MNIST dataset (Accuracy: 96%)
+1. **kNN** model with MNIST dataset (Accuracy: 96%)
 2. **Multiple logistic regression** on MNIST (Accuracy: 91%) and CIFAR10 (Accuracy: 38%)
 3. **Fully Connected Network** on MNIST (Accuracy: 95%)
 4. **Convolution Nurual Network** on CIFAR10 (Accuracy: 65%)
@@ -53,17 +53,20 @@ Accuracy of the network on the 10000 test images: 38 %
 
 ### Fully Connected Network on MNIST
 
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/fully_connected_network <br>
+Running instruction: run main.py and specify implementation type (builin or manual) and loss type (l2 or ce), where ce stands for cross entropy loss <br>
+example: python3 main.py impl_type=builtin loss_type=ce python3 main.py impl_type=manual loss_type=l2
+
+#### Design:
+
+Part 1: I used built-in pytorch model to construct the fully connected network <br>
+Part 2: I manually implemented a training model that computes forward pass, backward pass, and loss function manually with basic math funtions
+
+#### Result:
+
+Accuracy: 95% on MNIST with L2 loss <br>
+Accuracy: 97% on MNIST with cross entropy loss
+
 ### Convolution Nurual Network on CIFAR10
 
 ### Tranfer Learning on FashionMNIST
-
-
-
-3. Fully Connected Network on MNIST
-   Accuracy: 95% on MNIST with L2 loss
-   Accuracy: 97% on MNIST with cross entropy loss
-   Part 1 uses built-in pytorch model 
-   Part 2 manually implemented a training model that 
-   computes forward pass, backward pass, and loss function manually
-   with only a very basic set of pytorch functions
-   
