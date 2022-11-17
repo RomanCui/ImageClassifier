@@ -68,4 +68,9 @@ The model has convolutional layers, fully connected layers, activation functions
 #### Result:
 Accuracy: 65% on CIFAR-10
 
-### Tranfer Learning on FashionMNIST
+### 5. Tranfer Learning on FashionMNIST
+
+### 6. Object Detection
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ConvolutionalNet <br>
+
+
