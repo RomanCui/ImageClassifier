@@ -17,7 +17,7 @@
 # Design and running results of each program above
 
 ### 1. kNN model with MNIST dataset
-Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/knn <br>
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/K-NN <br>
 Running instruction: upload knn_on_MNIST.ipynb to google colab and run with gpu
 
 #### Design:
@@ -30,7 +30,7 @@ Accuracy: 0.962000 <br>
 Time: 4.204589
 
 ### 2. Multiple logistic regression on MNIST and CIFAR10
-Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/multiple_logistic_regression_with_tuning <br>
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/LogisticRegression <br>
 Running instruction: upload multiple_logistic_regression_with_tuning.ipynb to google colab and run with gpu
 
 #### Design:
@@ -46,7 +46,7 @@ Accuracy of the network on the 10000 test images: 91 % <br>
 Accuracy of the network on the 10000 test images: 38 %
 
 ### 3. Fully Connected Network on MNIST
-Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/fully_connected_network <br>
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/FCNet <br>
 Running instruction: run main.py and specify implementation type (builin or manual) and loss type (l2 or ce), where ce stands for cross entropy loss <br>
 example: python3 main.py impl_type=builtin loss_type=ce python3 main.py impl_type=manual loss_type=l2
 
@@ -58,6 +58,14 @@ Part 2: I manually implemented a training model that computes forward pass, back
 Accuracy: 95% on MNIST with L2 loss <br>
 Accuracy: 97% on MNIST with cross entropy loss
 
-### Convolution Nurual Network on CIFAR10
+### 4. Convolution Nurual Network on CIFAR10
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ConvolutionalNet <br>
+Running instruction: upload CNN_CIFAR10.ipynb to google colab and run with gpu
+
+#### Design:
+The model has convolutional layers, fully connected layers, activation functions, max-pooling and up-sampling.
+
+#### Result:
+Accuracy: 65% on CIFAR-10
 
 ### Tranfer Learning on FashionMNIST
