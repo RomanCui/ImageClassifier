@@ -16,7 +16,7 @@
 
 # Design and running results of each program above
 
-### kNN model with MNIST dataset
+### 1. kNN model with MNIST dataset
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/knn <br>
 Running instruction: upload knn_on_MNIST.ipynb to google colab and run with gpu
 
@@ -29,7 +29,7 @@ Correct Predictions: 962/1000 total <br>
 Accuracy: 0.962000 <br>
 Time: 4.204589
 
-### Multiple logistic regression on MNIST and CIFAR10
+### 2. Multiple logistic regression on MNIST and CIFAR10
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/multiple_logistic_regression_with_tuning <br>
 Running instruction: upload multiple_logistic_regression_with_tuning.ipynb to google colab and run with gpu
 
@@ -45,7 +45,7 @@ Best learning rate for sgd:  0.001 <br>
 Accuracy of the network on the 10000 test images: 91 % <br>
 Accuracy of the network on the 10000 test images: 38 %
 
-### Fully Connected Network on MNIST
+### 3. Fully Connected Network on MNIST
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/fully_connected_network <br>
 Running instruction: run main.py and specify implementation type (builin or manual) and loss type (l2 or ce), where ce stands for cross entropy loss <br>
 example: python3 main.py impl_type=builtin loss_type=ce python3 main.py impl_type=manual loss_type=l2
