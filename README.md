@@ -30,8 +30,7 @@ In testing, the program find the closes 3 neighbor and compute the mode of their
 Dataset illustration:
 <div align="left">
   <p>
-    <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
-      <img width="850" src="https://github.com/ultralytics/assets/blob/master/yolov5/v62/splash_readme.png"></a>
+    <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/MnistExamples.png"></a>
   </p>
 </div>
 Correct Predictions: 962/1000 total <br>
@@ -50,9 +49,8 @@ Then, I improved the performance by using grid-search to find the best learning 
 Dataset illustration:
 <div align="left">
   <p>
-    <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
-      <img width="850" src="https://github.com/ultralytics/assets/blob/master/yolov5/v62/splash_readme.png"></a>
-      <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/Cifar10Examples.png"></a>
+    <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/MnistExamples.png"></a>
+    <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/Cifar10Examples.png"></a>
   </p>
 </div>
 Best lambda for adam:  0.005 <br>
