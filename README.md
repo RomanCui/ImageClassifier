@@ -47,7 +47,7 @@ Accuracy of the network on the 10000 test images: 38 %
 
 ### 3. Fully Connected Network on MNIST
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/FCNet <br>
-Running instruction: run main.py and specify implementation type (builin or manual) and loss type (l2 or ce), where ce stands for cross entropy loss <br>
+Running instruction: Run main.py and specify implementation type (builin or manual) and loss type (l2 or ce), where ce stands for cross entropy loss <br>
 example: ```python3 main.py impl_type=builtin loss_type=ce``` ```python3 main.py impl_type=manual loss_type=l2```
 
 #### Design:
@@ -71,6 +71,14 @@ Accuracy: 65% on CIFAR-10
 ### 5. Tranfer Learning on FashionMNIST
 
 ### 6. Object Detection
-Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ConvolutionalNet <br>
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ObjectDetection <br>
+Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload object_detection_train.ipynb to google colab for training and object_detection_valid.ipynb for testing. Run with gpu in colab. 
+
+#### Design:
+The model uses DarkNet53.
+
+#### Result:
+Accuracy: 98% on the classification task for MNISTDD-RGB
+Accuracy: 89% on the IOU task for MNISTDD-RGB
 
 
