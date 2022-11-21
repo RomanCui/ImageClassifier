@@ -101,5 +101,7 @@ Accuracy: 98% on the classification task for MNISTDD-RGB <br>
 Accuracy: 89% on the IOU task for MNISTDD-RGB
 
 ## 6. Image Segmentation
+Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/Segmentation <br>
+Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload segmentation_train.ipynb to google colab for training and segmentation_test.ipynb for testing. Run with gpu in colab. 
 
 
