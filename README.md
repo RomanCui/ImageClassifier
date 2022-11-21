@@ -17,6 +17,7 @@
 2. **Multiple logistic regression** on MNIST (Accuracy: 91%) and CIFAR10 (Accuracy: 38%)
 3. **Fully Connected Network** on MNIST (Accuracy: 95%)
 4. **Convolution Nurual Network** on CIFAR10 (Accuracy: 65%)
+5. **Object Detection** on MNISTDD-RGB (Accuracy: 65%)
 
 ### 1. kNN model with MNIST dataset
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/K-NN <br>
@@ -52,10 +53,10 @@ CIFAR-10 dataset illustration:
     <img width="300" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/Cifar10Examples.png"></a>
   </p>
 </div>
-Best lambda for adam:  0.005 <br>
-Best learning rate for adam:  0.001 <br>
-Best lambda for sgd :  0.005 <br>
-Best learning rate for sgd:  0.001 <br>
+Tuned best lambda for adam:  0.005 <br>
+Tuned best learning rate for adam:  0.001 <br>
+Tuned best lambda for sgd :  0.005 <br>
+Tuned best learning rate for sgd:  0.001 <br>
 Accuracy of the network on the 10000 test images: 91 % <br>
 Accuracy of the network on the 10000 test images: 38 %
 
@@ -82,7 +83,7 @@ The model has convolutional layers, fully connected layers, activation functions
 #### Result:
 Accuracy: 65% on CIFAR-10
 
-## 6. Object Detection
+## 5. Object Detection
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ObjectDetection <br>
 Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload object_detection_train.ipynb to google colab for training and object_detection_valid.ipynb for testing. Run with gpu in colab. 
 
@@ -99,6 +100,6 @@ MNISTDD-RGB dataset illustration:
 Accuracy: 98% on the classification task for MNISTDD-RGB <br> 
 Accuracy: 89% on the IOU task for MNISTDD-RGB
 
-## 7. Image Segmentation
+## 6. Image Segmentation
 
 
