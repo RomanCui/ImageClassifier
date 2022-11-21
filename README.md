@@ -1,20 +1,22 @@
-# Introduction
+## <div align="center">Big Brain Models</div>
 
-- This project applied **supervised learning** techniques on **image recognition** from a beginning level to an advanced level
-- Various learning methods and **many different learning models** are developed
-- **Different datasets** are used to train and test the models, such as CIFAR10
-- In this project, I use **pytorch library** and **google colab**
-- Timeline: Sep - Dec 2022
+<div align="center">
+  <p>
+     Big Brian Models 🚀 applied supervised learning techniques on image classification from a beginning level to an advanced level. Various learning methods and many different learning models are developed. Different datasets such as <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST</a> and <a href="https://en.wikipedia.org/wiki/CIFAR-10">CIFAR-10</a> are used to train and test the models. This project is a personal project that developed to apply my skills that I gained from CMPUT 328 at University of Alberta with instructor Nilanjan Ray. <br><br>
+    Technology used: pytorch library,  google colab <br><br> Timeline: Sep - Dec 2022
+  </p>
+ 
+  
+</div>
 
-# Summary of programs
+## <div align="center">Documentation</div>
+
+## Summary of programs
 
 1. **kNN** model with MNIST dataset (Accuracy: 96%)
 2. **Multiple logistic regression** on MNIST (Accuracy: 91%) and CIFAR10 (Accuracy: 38%)
 3. **Fully Connected Network** on MNIST (Accuracy: 95%)
 4. **Convolution Nurual Network** on CIFAR10 (Accuracy: 65%)
-5. **Tranfer Learning** on FashionMNIST (Accuracy: 83%)
-
-# Design and running results of each program above
 
 ### 1. kNN model with MNIST dataset
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/K-NN <br>
@@ -25,6 +27,13 @@ There is no training for the kNN model <br>
 In testing, the program find the closes 3 neighbor and compute the mode of their labels as the predition
 
 #### Result:
+Dataset illustration:
+<div align="left">
+  <p>
+    <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
+      <img width="850" src="https://github.com/ultralytics/assets/blob/master/yolov5/v62/splash_readme.png"></a>
+  </p>
+</div>
 Correct Predictions: 962/1000 total <br>
 Accuracy: 0.962000 <br>
 Time: 4.204589
