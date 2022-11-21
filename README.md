@@ -98,7 +98,7 @@ MNISTDD-RGB dataset illustration:
   </p>
 </div>
 Accuracy: 98% on the classification task <br> 
-Accuracy: 89% on the IOU task(success is only true if the IOU predction is exactly the same as the label, all pixels have to overlab. success rate is not calculated based on area)
+Accuracy: 89% on the IOU task (success is only true if the IOU predction is exactly the same as the label, all pixels have to overlab. success rate is not calculated based on area)
 
 ## 6. Image Segmentation
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/Segmentation <br>
