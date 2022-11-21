@@ -88,7 +88,7 @@ Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ObjectDetection <
 Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload object_detection_train.ipynb to google colab for training and object_detection_test.ipynb for testing. Run with gpu in colab. 
 
 #### Design:
-The model uses DarkNet53.
+The model uses DarkNet53
 
 #### Result:
 MNISTDD-RGB dataset illustration:
@@ -97,11 +97,19 @@ MNISTDD-RGB dataset illustration:
     <img width="300" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/%20MNISTDDExamples.png"></a>
   </p>
 </div>
-Accuracy: 98% on the classification task for MNISTDD-RGB <br> 
-Accuracy: 89% on the IOU task for MNISTDD-RGB
+Accuracy: 98% on the classification task <br> 
+Accuracy: 89% on the IOU task(success is only true if the IOU predction is exactly the same as the label, all pixels have to overlab. success rate is not calculated based on area)
 
 ## 6. Image Segmentation
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/Segmentation <br>
 Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload segmentation_train.ipynb to google colab for training and segmentation_test.ipynb for testing. Run with gpu in colab. 
+
+#### Design:
+The model uses U-Net
+
+#### Result:
+Accuracy: 94% on correct prediction for object pixels. Background pixels are not included in the accuracy calculation.
+
+
 
 
