@@ -85,7 +85,7 @@ Accuracy: 65% on CIFAR-10
 
 ## 5. Object Detection
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ObjectDetection <br>
-Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload object_detection_train.ipynb to google colab for training and object_detection_valid.ipynb for testing. Run with gpu in colab. 
+Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload object_detection_train.ipynb to google colab for training and object_detection_test.ipynb for testing. Run with gpu in colab. 
 
 #### Design:
 The model uses DarkNet53.
