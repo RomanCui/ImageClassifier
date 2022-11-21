@@ -47,6 +47,14 @@ First, set up logistic regression and regularization with a starting leaerning r
 Then, I improved the performance by using grid-search to find the best learning rate and hyperparmeters
 
 #### Result:
+Dataset illustration:
+<div align="left">
+  <p>
+    <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
+      <img width="850" src="https://github.com/ultralytics/assets/blob/master/yolov5/v62/splash_readme.png"></a>
+      <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/Cifar10Examples.png"></a>
+  </p>
+</div>
 Best lambda for adam:  0.005 <br>
 Best learning rate for adam:  0.001 <br>
 Best lambda for sgd :  0.005 <br>
