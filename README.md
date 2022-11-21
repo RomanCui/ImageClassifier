@@ -48,7 +48,7 @@ Accuracy of the network on the 10000 test images: 38 %
 ### 3. Fully Connected Network on MNIST
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/FCNet <br>
 Running instruction: run main.py and specify implementation type (builin or manual) and loss type (l2 or ce), where ce stands for cross entropy loss <br>
-example: python3 main.py impl_type=builtin loss_type=ce python3 main.py impl_type=manual loss_type=l2
+example: ```python3 main.py impl_type=builtin loss_type=ce``` ```python3 main.py impl_type=manual loss_type=l2```
 
 #### Design:
 Part 1: I used built-in pytorch model to construct the fully connected network <br>
