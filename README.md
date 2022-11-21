@@ -27,10 +27,10 @@ There is no training for the kNN model <br>
 In testing, the program find the closes 3 neighbor and compute the mode of their labels as the predition
 
 #### Result:
-Dataset illustration:
+MNIST dataset illustration:
 <div align="left">
   <p>
-    <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/MnistExamples.png"></a>
+    <img width="300" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/MnistExamples.png"></a>
   </p>
 </div>
 Correct Predictions: 962/1000 total <br>
@@ -46,11 +46,10 @@ First, set up logistic regression and regularization with a starting leaerning r
 Then, I improved the performance by using grid-search to find the best learning rate and hyperparmeters
 
 #### Result:
-Dataset illustration:
+CIFAR-10 dataset illustration:
 <div align="left">
   <p>
-    <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/MnistExamples.png"></a>
-    <img width="850" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/Cifar10Examples.png"></a>
+    <img width="300" src="https://github.com/RomanCui/BigBrainModels/blob/main/assets/Cifar10Examples.png"></a>
   </p>
 </div>
 Best lambda for adam:  0.005 <br>
