@@ -78,7 +78,7 @@ Running instruction: Download the dataset from https://drive.google.com/drive/u/
 The model uses DarkNet53.
 
 #### Result:
-Accuracy: 98% on the classification task for MNISTDD-RGB
+Accuracy: 98% on the classification task for MNISTDD-RGB <br> 
 Accuracy: 89% on the IOU task for MNISTDD-RGB
 
 
