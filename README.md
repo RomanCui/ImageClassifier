@@ -20,7 +20,7 @@
 5. **Object Detection** on MNISTDD-RGB (Accuracy: Classification 98%, IOU 89%)
 6. **Image Segmentaion** on MNISTDD-RGB (Accuracy: 94%)
 
-### 1. kNN model with MNIST dataset
+## 1. kNN model with MNIST dataset
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/K-NN <br>
 Running instruction: upload knn_on_MNIST.ipynb to google colab and run with gpu
 
@@ -39,7 +39,7 @@ Correct Predictions: 962/1000 total <br>
 Accuracy: 0.962000 <br>
 Time: 4.204589
 
-### 2. Multiple logistic regression on MNIST and CIFAR10
+## 2. Multiple logistic regression on MNIST and CIFAR10
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/LogisticRegression <br>
 Running instruction: upload multiple_logistic_regression_with_tuning.ipynb to google colab and run with gpu
 
