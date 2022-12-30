@@ -74,7 +74,7 @@ Part 2: I manually implemented a training model that computes forward pass, back
 Accuracy: 95% on MNIST with L2 loss <br>
 Accuracy: 97% on MNIST with cross entropy loss
 
-### 4. Convolution Nurual Network on CIFAR10
+## 4. Convolution Nurual Network on CIFAR10
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/ConvolutionalNet <br>
 Running instruction: upload CNN_CIFAR10.ipynb to google colab and run with gpu
 
