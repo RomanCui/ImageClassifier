@@ -3,7 +3,7 @@
 <div align="center">
   <p>
      This project applied supervised learning techniques on image classification from a beginning level to an advanced level. Various learning methods and many different learning models are developed. Different datasets such as <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST</a> and <a href="https://en.wikipedia.org/wiki/CIFAR-10">CIFAR-10</a> are used to train and test the models. This project is a personal project that developed to apply my skills that I gained from CMPUT 328 at University of Alberta with instructor Nilanjan Ray. <br><br>
-    Technology used: pytorch library,  google colab <br><br> Timeline: Sep - Dec 2022
+    Technology used: pytorch library,  google colab <br><br>
   </p>
  
   
