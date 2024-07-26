@@ -103,7 +103,6 @@ Accuracy: 89% on the IOU task (success is only true if the IOU predction is exac
 
 ## 6. Image Segmentation
 Codebase: https://github.com/RomanCui/BigBrainModels/tree/main/Segmentation <br>
-Running instruction: Download the dataset from https://drive.google.com/drive/u/0/folders/1cBuMzH4ysD_pnJi8MjeDFyy5cH_DJQwK and upload the folder in your google drive. Upload segmentation_train.ipynb to google colab for training and segmentation_test.ipynb for testing. Run with gpu in colab. 
 
 #### Design:
 The model uses U-Net
